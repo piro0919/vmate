@@ -1,24 +1,80 @@
 {
   "dependencies": {
+    "@t3-oss/env-nextjs": "0.11.1",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "ress": "5.0.2",
+    "zod": "3.23.8"
   },
   "devDependencies": {
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
+    "@piro0919/next-unused": "0.2.2",
+    "@secretlint/secretlint-rule-preset-recommend": "9.0.0",
+    "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "8.12.2",
+    "@typescript-eslint/parser": "8.12.2",
+    "@uphold/commitlint-config": "1.1.1",
+    "better-typescript-lib": "2.9.0",
+    "commitlint-plugin-tense": "1.0.3",
+    "depcheck": "1.4.7",
     "eslint": "^8",
+    "eslint-config-google": "0.14.0",
     "eslint-config-next": "15.0.2",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-css": "0.11.0",
+    "eslint-plugin-css-modules": "2.12.0",
+    "eslint-plugin-ext": "0.1.0",
+    "eslint-plugin-filenames": "1.3.2",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-n": "17.12.0",
+    "eslint-plugin-no-unsanitized": "4.1.2",
+    "eslint-plugin-promise": "7.1.0",
+    "eslint-plugin-sort-destructure-keys": "2.0.0",
+    "eslint-plugin-sort-keys-fix": "1.1.2",
+    "eslint-plugin-typescript-sort-keys": "3.3.0",
+    "eslint-plugin-unused-imports": "4.1.4",
+    "eslint-plugin-write-good-comments": "0.2.0",
+    "lefthook": "1.8.2",
+    "prettier": "3.3.3",
+    "secretlint": "9.0.0",
+    "stylelint": "16.10.0",
+    "stylelint-config-css-modules": "4.4.0",
+    "stylelint-config-recommended": "14.0.1",
+    "stylelint-css-modules-no-global-scoped-selector": "1.0.2",
+    "stylelint-declaration-block-no-ignored-properties": "2.8.0",
+    "stylelint-high-performance-animation": "1.10.0",
+    "stylelint-no-unused-selectors": "1.0.40",
+    "stylelint-order": "6.0.4",
     "typescript": "^5"
   },
   "name": "vmate",
+  "overrides": {
+    "stylelint-css-modules-no-global-scoped-selector": {
+      "stylelint": "16.10.0"
+    },
+    "stylelint-no-unused-selectors": {
+      "stylelint": "16.10.0"
+    }
+  },
   "private": true,
   "scripts": {
     "build": "next build",
+    "depcheck": "depcheck",
     "dev": "next dev",
+    "find:unused": "next-unused",
+    "lefthook:precommit": "npx lefthook run pre-commit",
     "lint": "next lint",
-    "start": "next start"
+    "lint:fix": "next lint --fix",
+    "lint:style": "stylelint --fix '**/*.css'",
+    "prettier": "prettier --write .",
+    "secretlint": "secretlint '**/*'",
+    "start": "next start",
+    "type-check": "tsc --noemit"
   },
   "version": "0.1.0"
 }
