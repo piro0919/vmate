@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "@clerk/nextjs": "6.2.0",
+    "@prisma/client": "5.21.1",
     "@t3-oss/env-nextjs": "0.11.1",
+    "@vercel/postgres": "0.10.0",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028",
@@ -42,6 +44,7 @@
     "eslint-plugin-write-good-comments": "0.2.0",
     "lefthook": "1.8.2",
     "prettier": "3.3.3",
+    "prisma": "5.21.1",
     "secretlint": "9.0.0",
     "stylelint": "16.10.0",
     "stylelint-config-css-modules": "4.4.0",
