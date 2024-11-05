@@ -4,12 +4,14 @@ pre-commit:
     prettier:
       glob: "*"
       run: npx prettier --ignore-unknown --write {staged_files}
+      stage_fixed: true
     secretlint:
       glob: "*"
       run: npx secretlint {staged_files}
     stylelint:
       glob: "**/*.scss"
       run: npx stylelint --fix {staged_files}
+      stage_fixed: true
     typescript-liver:
       glob: "*.{ts,tsx}"
       root: apps/liver/
@@ -21,3 +23,4 @@ pre-commit:
     eslint:
       glob: "*.{js,jsx,ts,tsx}"
       run: npx eslint --fix {staged_files}
+      stage_fixed: true
