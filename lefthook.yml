@@ -12,11 +12,11 @@ pre-commit:
       run: npx stylelint --fix {staged_files}
     typescript-liver:
       glob: "*.{ts,tsx}"
-      root: packages/liver/
+      root: apps/liver/
       run: npx tsc --noemit
     typescript-user:
       glob: "*.{ts,tsx}"
-      root: packages/user/
+      root: apps/user/
       run: npx tsc --noemit
     eslint:
       glob: "*.{js,jsx,ts,tsx}"
