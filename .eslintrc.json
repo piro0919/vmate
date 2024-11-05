@@ -12,17 +12,10 @@
     "next/typescript",
     "prettier"
   ],
-  "ignorePatterns": [
-    "*.d.ts",
-    "*.js",
-    "next.config.ts"
-  ],
+  "ignorePatterns": ["*.d.ts", "*.js", "next.config.ts"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": [
-      "./apps/liver/tsconfig.json",
-      "./apps/user/tsconfig.json"
-    ],
+    "project": ["./apps/liver/tsconfig.json", "./apps/user/tsconfig.json"],
     "warnOnUnsupportedTypeScriptVersion": false
   },
   "plugins": [
@@ -40,18 +33,8 @@
     "@typescript-eslint/explicit-function-return-type": "error",
     "@typescript-eslint/no-misused-promises": "off",
     "@typescript-eslint/no-unused-vars": "off",
-    "ext/lines-between-object-properties": [
-      "error",
-      "never"
-    ],
-    "filenames/match-exported": [
-      "error",
-      [
-        "camel",
-        "kebab",
-        "pascal"
-      ]
-    ],
+    "ext/lines-between-object-properties": ["error", "never"],
+    "filenames/match-exported": ["error", ["camel", "kebab", "pascal"]],
     "filenames/match-regex": "error",
     "filenames/no-index": "off",
     "import/newline-after-import": [
@@ -127,10 +110,7 @@
       },
       {
         "blankLine": "never",
-        "next": [
-          "case",
-          "default"
-        ],
+        "next": ["case", "default"],
         "prev": "case"
       },
       {
@@ -144,20 +124,14 @@
         "prev": "let"
       }
     ],
-    "quotes": [
-      "error",
-      "double"
-    ],
+    "quotes": ["error", "double"],
     "react-hooks/exhaustive-deps": [
       "error",
       {
         "enableDangerousAutofixThisMayCauseInfiniteLoops": true
       }
     ],
-    "react/jsx-boolean-value": [
-      "error",
-      "always"
-    ],
+    "react/jsx-boolean-value": ["error", "always"],
     "react/jsx-newline": [
       "error",
       {
@@ -166,10 +140,7 @@
     ],
     "react/jsx-sort-props": "error",
     "require-jsdoc": "off",
-    "semi": [
-      "error",
-      "always"
-    ],
+    "semi": ["error", "always"],
     "sort-destructure-keys/sort-destructure-keys": "error",
     "sort-imports": [
       "error",
