@@ -3,10 +3,5 @@
   "parserOptions": {
     "project": ["./tsconfig.json"],
     "warnOnUnsupportedTypeScriptVersion": false
-  },
-  "settings": {
-    "next": {
-      "rootDir": "apps/liver/"
-    }
   }
 }

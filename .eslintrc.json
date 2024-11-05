@@ -162,5 +162,10 @@
       }
     ],
     "write-good-comments/write-good-comments": "error"
+  },
+  "settings": {
+    "next": {
+      "rootDir": "apps/*/"
+    }
   }
 }
