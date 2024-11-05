@@ -1,22 +1,11 @@
 {
-  "dependencies": {
-    "@clerk/nextjs": "6.2.0",
-    "@prisma/client": "5.21.1",
-    "@t3-oss/env-nextjs": "0.11.1",
-    "@vercel/postgres": "0.10.0",
-    "next": "15.0.2",
-    "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028",
-    "ress": "5.0.2",
-    "zod": "3.23.8"
-  },
   "devDependencies": {
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.5.0",
     "@piro0919/next-unused": "0.2.2",
     "@secretlint/secretlint-rule-preset-recommend": "9.0.0",
     "@total-typescript/ts-reset": "0.6.1",
-    "@types/node": "^22.0.0",
+    "@types/node": "22.9.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@typescript-eslint/eslint-plugin": "8.12.2",
@@ -42,6 +31,7 @@
     "eslint-plugin-typescript-sort-keys": "3.3.0",
     "eslint-plugin-unused-imports": "4.1.4",
     "eslint-plugin-write-good-comments": "0.2.0",
+    "knip": "5.36.2",
     "lefthook": "1.8.2",
     "prettier": "3.3.3",
     "prisma": "5.21.1",
@@ -54,7 +44,7 @@
     "stylelint-high-performance-animation": "1.10.0",
     "stylelint-no-unused-selectors": "1.0.40",
     "stylelint-order": "6.0.4",
-    "typescript": "^5"
+    "typescript": "5.6.3"
   },
   "name": "vmate",
   "overrides": {
@@ -67,17 +57,15 @@
   },
   "private": true,
   "scripts": {
-    "build": "next build",
     "depcheck": "depcheck",
-    "dev": "next dev",
     "find:unused": "next-unused",
+    "knip": "knip",
     "lefthook:precommit": "npx lefthook run pre-commit",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "lint:style": "stylelint --fix '**/*.css'",
     "prettier": "prettier --write .",
     "secretlint": "secretlint '**/*'",
-    "start": "next start",
     "type-check": "tsc --noemit"
   },
   "version": "0.1.0",

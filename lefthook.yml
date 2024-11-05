@@ -10,8 +10,13 @@ pre-commit:
     stylelint:
       glob: "**/*.scss"
       run: npx stylelint --fix {staged_files}
-    typescript:
+    typescript-liver:
       glob: "*.{ts,tsx}"
+      root: packages/liver/
+      run: npx tsc --noemit
+    typescript-user:
+      glob: "*.{ts,tsx}"
+      root: packages/user/
       run: npx tsc --noemit
     eslint:
       glob: "*.{js,jsx,ts,tsx}"
