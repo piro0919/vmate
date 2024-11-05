@@ -15,7 +15,7 @@
   "ignorePatterns": ["*.d.ts", "*.js", "next.config.ts"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": ["./apps/liver/tsconfig.json", "./apps/user/tsconfig.json"],
+    "project": ["./tsconfig.json"],
     "warnOnUnsupportedTypeScriptVersion": false
   },
   "plugins": [
