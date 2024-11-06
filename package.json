@@ -71,7 +71,7 @@
     "lint:user": "npm run lint -w user",
     "prettier": "prettier --write .",
     "secretlint": "secretlint '**/*'",
-    "type-check": "tsc --noemit"
+    "type-check": "tsc --noEmit"
   },
   "version": "0.1.0",
   "workspaces": [
