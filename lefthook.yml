@@ -15,11 +15,11 @@ pre-commit:
     typescript-liver:
       glob: "*.{ts,tsx}"
       root: apps/liver/
-      run: npx tsc --noemit
+      run: npx tsc --noEmit
     typescript-user:
       glob: "*.{ts,tsx}"
       root: apps/user/
-      run: npx tsc --noemit
+      run: npx tsc --noEmit
     eslint:
       glob: "*.{js,jsx,ts,tsx}"
       run: npx eslint --fix {staged_files}
