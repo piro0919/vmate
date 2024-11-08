@@ -33,7 +33,7 @@
     "eslint-plugin-write-good-comments": "0.2.0",
     "knip": "5.36.2",
     "lefthook": "1.8.2",
-    "npm-run-all": "4.1.5",
+    "npm-run-all2": "5.0.0",
     "prettier": "3.3.3",
     "prisma": "5.21.1",
     "secretlint": "9.0.0",
