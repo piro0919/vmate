@@ -1,7 +1,10 @@
 // eslint-disable-next-line filenames/match-exported
+import { jaJP } from "@clerk/localizations";
 import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
+import "react-modern-drawer/dist/index.css";
 import "ress";
+import Layout from "./_components/Layout";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <ClerkProvider>{children}</ClerkProvider>
+        <ClerkProvider localization={jaJP}>
+          <Layout>{children}</Layout>
+        </ClerkProvider>
       </body>
     </html>
   );

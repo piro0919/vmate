@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@clerk/localizations": "3.6.1",
     "@clerk/nextjs": "6.2.0",
     "@prisma/client": "5.21.1",
     "@t3-oss/env-nextjs": "0.11.1",

@@ -1,6 +1,8 @@
 "use client";
+import { Spin as Hamburger } from "hamburger-react";
 import { ReactNode } from "react";
-import useShowWindowSize from "use-show-window-size";
+import { useBoolean } from "usehooks-ts";
+import Drawer from "../Drawer";
 import Header from "../Header";
 import MobileNavigation from "../MobileNavigation";
 import styles from "./style.module.css";
@@ -10,12 +12,14 @@ export type AuthLayoutProps = {
 };
 
 export default function AuthLayout({ children }: AuthLayoutProps): JSX.Element {
-  useShowWindowSize({
-    disable: process.env.NODE_ENV === "production",
-  });
+  const {
+    setFalse: offIsOpen,
+    toggle: toggleIsOpen,
+    value: isOpen,
+  } = useBoolean(false);
 
   return (
-    <div>
+    <>
       <div className={styles.header}>
         <Header />
       </div>
@@ -23,6 +27,10 @@ export default function AuthLayout({ children }: AuthLayoutProps): JSX.Element {
       <aside className={styles.mobileNavigation}>
         <MobileNavigation />
       </aside>
-    </div>
+      <Drawer onClose={offIsOpen} open={isOpen} />
+      <div className={styles.hamburger}>
+        <Hamburger size={24} toggle={toggleIsOpen} toggled={isOpen} />
+      </div>
+    </>
   );
 }

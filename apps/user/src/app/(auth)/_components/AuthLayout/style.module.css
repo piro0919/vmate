@@ -1,5 +1,6 @@
 .header {
   inset: 0 0 auto;
+  z-index: 1;
   position: fixed;
 }
 
@@ -10,4 +11,14 @@
 .mobileNavigation {
   inset: auto 0 0;
   position: fixed;
+
+  @media (width >= 740px) {
+    display: none;
+  }
+}
+
+.hamburger {
+  position: fixed;
+  inset: 0 0 auto auto;
+  z-index: 1000;
 }

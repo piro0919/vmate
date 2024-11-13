@@ -1,14 +1,18 @@
 {
   "dependencies": {
+    "@clerk/localizations": "3.6.1",
     "@clerk/nextjs": "6.2.0",
     "@prisma/client": "5.21.1",
     "@t3-oss/env-nextjs": "0.11.1",
     "@vercel/postgres": "0.10.0",
+    "hamburger-react": "2.5.1",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "react-modern-drawer": "1.4.0",
     "ress": "5.0.2",
     "use-show-window-size": "0.0.1",
+    "usehooks-ts": "3.1.0",
     "zod": "3.23.8"
   },
   "name": "user",
@@ -20,5 +24,8 @@
     "lint:fix": "next lint --fix",
     "start": "next start"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "devDependencies": {
+    "@types/react": "18.3.12"
+  }
 }
