@@ -1,7 +1,7 @@
 // eslint-disable-next-line filenames/match-exported
+import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import "ress";
-import Layout from "./_components/Layout";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <Layout>{children}</Layout>
+        <ClerkProvider>{children}</ClerkProvider>
       </body>
     </html>
   );

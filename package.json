@@ -76,5 +76,8 @@
   "version": "0.1.0",
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "dependencies": {
+    "@clerk/nextjs": "6.3.1"
+  }
 }

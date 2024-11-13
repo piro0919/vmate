@@ -5,11 +5,11 @@ import Header from "../Header";
 import MobileNavigation from "../MobileNavigation";
 import styles from "./style.module.css";
 
-export type LayoutProps = {
+export type AuthLayoutProps = {
   children: ReactNode;
 };
 
-export default function Layout({ children }: LayoutProps): JSX.Element {
+export default function AuthLayout({ children }: AuthLayoutProps): JSX.Element {
   useShowWindowSize({
     disable: process.env.NODE_ENV === "production",
   });
