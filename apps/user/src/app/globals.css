@@ -12,6 +12,10 @@ html {
   }
 }
 
+body {
+  background: #f4f7fa;
+}
+
 * {
   outline: none;
 }
