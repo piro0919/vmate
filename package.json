@@ -16,7 +16,7 @@
     "depcheck": "1.4.7",
     "eslint": "^8",
     "eslint-config-google": "0.14.0",
-    "eslint-config-next": "15.0.2",
+    "eslint-config-next": "14.2.18",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-css": "0.11.0",
     "eslint-plugin-css-modules": "2.12.0",
