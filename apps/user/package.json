@@ -7,7 +7,6 @@
     "@tabler/icons-react": "3.22.0",
     "@vercel/postgres": "0.10.0",
     "hamburger-react": "2.5.1",
-    "jiti": "2.4.0",
     "next": "14.2.18",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -20,7 +19,8 @@
   "devDependencies": {
     "@types/node": "22.9.0",
     "@types/react": "18.3.12",
-    "@types/react-dom": "18.3.1"
+    "@types/react-dom": "18.3.1",
+    "jiti": "2.4.0"
   },
   "name": "user",
   "private": true,
