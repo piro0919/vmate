@@ -3,6 +3,7 @@ import { Spin as Hamburger } from "hamburger-react";
 import { ReactNode } from "react";
 import { useBoolean } from "usehooks-ts";
 import Drawer from "../Drawer";
+import Footer from "../Footer";
 import Header from "../Header";
 import MobileNavigation from "../MobileNavigation";
 import styles from "./style.module.css";
@@ -24,6 +25,9 @@ export default function AuthLayout({ children }: AuthLayoutProps): JSX.Element {
         <Header />
       </div>
       <main className={styles.main}>{children}</main>
+      <div className={styles.footer}>
+        <Footer />
+      </div>
       <aside className={styles.mobileNavigation}>
         <MobileNavigation />
       </aside>

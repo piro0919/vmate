@@ -1,3 +1,9 @@
+import {
+  IconClock,
+  IconHome,
+  IconMessageDots,
+  IconUserSquare,
+} from "@tabler/icons-react";
 import Link from "next/link";
 import { useMemo } from "react";
 import styles from "./style.module.css";
@@ -7,25 +13,30 @@ export default function MobileNavigation(): JSX.Element {
     () =>
       [
         {
+          Icon: IconHome,
           path: "/",
           text: "ホーム",
         },
         {
+          Icon: IconMessageDots,
           path: "community/",
           text: "コミュニティ",
         },
         {
+          Icon: IconClock,
           path: "/schedule",
           text: "スケジュール",
         },
         {
+          Icon: IconUserSquare,
           path: "/pypage",
           text: "マイページ",
         },
-      ].map(({ path, text }) => (
+      ].map(({ Icon, path, text }) => (
         <li key={path}>
           <Link className={styles.link} href="/">
-            {text}
+            <Icon />
+            <span className={styles.text}>{text}</span>
           </Link>
         </li>
       )),

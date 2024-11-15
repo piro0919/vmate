@@ -1,11 +1,21 @@
 .header {
   inset: 0 0 auto;
-  z-index: 1;
   position: fixed;
+  z-index: 1;
 }
 
 .main {
   margin: 48px 0 0;
+
+  @media (width < 740px) {
+    margin-bottom: 48px;
+  }
+}
+
+.footer {
+  @media (width < 740px) {
+    display: none;
+  }
 }
 
 .mobileNavigation {
@@ -18,7 +28,7 @@
 }
 
 .hamburger {
-  position: fixed;
   inset: 0 0 auto auto;
+  position: fixed;
   z-index: 1000;
 }
