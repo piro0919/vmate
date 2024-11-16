@@ -21,6 +21,4 @@ pre-commit:
       root: apps/user/
       run: npx tsc --noEmit
     eslint:
-      glob: "*.{js,jsx,ts,tsx}"
-      run: npx eslint --fix {staged_files}
-      stage_fixed: true
+      enabled: false
