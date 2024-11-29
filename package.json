@@ -47,10 +47,10 @@
   "name": "vmate",
   "overrides": {
     "stylelint-css-modules-no-global-scoped-selector": {
-      "stylelint": "16.10.0"
+      "stylelint": "16.11.0"
     },
     "stylelint-no-unused-selectors": {
-      "stylelint": "16.10.0"
+      "stylelint": "16.11.0"
     }
   },
   "private": true,
