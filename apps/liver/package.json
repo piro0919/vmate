@@ -2,7 +2,7 @@
   "dependencies": {
     "@clerk/localizations": "3.6.1",
     "@clerk/nextjs": "6.2.0",
-    "@prisma/client": "5.21.1",
+    "@prisma/client": "6.0.0",
     "@t3-oss/env-nextjs": "0.11.1",
     "@vercel/postgres": "0.10.0",
     "next": "14.2.18",
