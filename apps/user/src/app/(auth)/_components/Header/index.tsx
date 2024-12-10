@@ -1,4 +1,5 @@
 import { Lobster } from "next/font/google";
+import Link from "next/link";
 import styles from "./style.module.css";
 
 const lobster = Lobster({
@@ -10,7 +11,9 @@ const lobster = Lobster({
 export default function Header(): JSX.Element {
   return (
     <header className={styles.header}>
-      <div className={`${styles.title} ${lobster.className}`}>Vmate</div>
+      <Link className={`${styles.title} ${lobster.className}`} href="/">
+        Vmate
+      </Link>
     </header>
   );
 }

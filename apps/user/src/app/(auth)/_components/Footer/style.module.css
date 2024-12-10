@@ -1,10 +1,10 @@
 .footer {
+  align-items: center;
   background: #fff;
   border-top: 1px solid #e8eaee;
   display: flex;
-  align-items: center;
-  justify-content: center;
   height: 48px;
+  justify-content: center;
 }
 
 .copyright {
