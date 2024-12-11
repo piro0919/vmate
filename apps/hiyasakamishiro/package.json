@@ -1,27 +1,21 @@
 {
   "dependencies": {
-    "next": "15.1.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "web-push": "3.6.7"
+    "next": "14.2.20",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@types/web-push": "3.6.4",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.0",
-    "typescript": "^5"
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
   },
   "name": "hiyasakamishiro",
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev --turbopack",
-    "dev:https": "next dev --turbopack --experimental-https",
+    "dev": "next dev",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "start": "next start"
   },
   "version": "0.1.0"

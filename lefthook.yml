@@ -12,6 +12,10 @@ pre-commit:
       glob: "**/*.scss"
       run: npx stylelint --fix {staged_files}
       stage_fixed: true
+    typescript-hiyasakamishiro:
+      glob: "*.{ts,tsx}"
+      root: apps/hiyasakamishiro/
+      run: npx tsc --noEmit
     typescript-liver:
       glob: "*.{ts,tsx}"
       root: apps/liver/
@@ -20,7 +24,7 @@ pre-commit:
       glob: "*.{ts,tsx}"
       root: apps/user/
       run: npx tsc --noEmit
-    # eslint:
-    #   glob: "*.{js,jsx,ts,tsx}"
-    #   run: npx eslint --fix {staged_files}
-    #   stage_fixed: true
+    eslint:
+      glob: "*.{js,jsx,ts,tsx}"
+      run: npx eslint --fix {staged_files}
+      stage_fixed: true
