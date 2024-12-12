@@ -1,4 +1,3 @@
-// app/api/push/route.ts
 import { NextResponse } from "next/server";
 import getWebPushInstance from "@/lib/getWebPushInstance";
 

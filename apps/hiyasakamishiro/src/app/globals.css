@@ -1,0 +1,70 @@
+html {
+  @media (width < 740px) {
+    font-size: 56.25%;
+  }
+  @media (width >= 740px) {
+    font-size: 62.5%;
+  }
+}
+
+* {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+article,
+footer,
+header,
+main,
+section {
+  container-type: inline-size;
+}
+
+button {
+  color: inherit;
+}
+
+canvas,
+img,
+picture,
+svg,
+video {
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: italic;
+  height: auto;
+  max-width: 100%;
+  pointer-events: none;
+  shape-margin: 1rem;
+  vertical-align: middle;
+}
+
+figcaption,
+li,
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+input,
+textarea {
+  min-width: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}

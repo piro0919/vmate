@@ -1,5 +1,9 @@
 // eslint-disable-next-line filenames/match-exported
 import type { Metadata, Viewport } from "next";
+import { ReactNode } from "react";
+import "react-tabs/style/react-tabs.css";
+import "ress";
+import "./globals.css";
 
 const APP_NAME = "PWA App";
 const APP_DEFAULT_TITLE = "My Awesome PWA App";
@@ -48,7 +52,7 @@ export const viewport: Viewport = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>): React.JSX.Element {
   return (
     <html lang="ja">

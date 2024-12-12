@@ -1,15 +1,14 @@
-"use client";
 import { useEffect, useState } from "react";
 
-interface NotificationResponse {
+type NotificationResponse = {
   error?: string;
   success?: boolean;
-}
+};
 
-interface PushMessage {
+type PushMessage = {
   message: string;
   subscription: PushSubscription;
-}
+};
 
 export default function PushButton(): React.JSX.Element {
   const [subscription, setSubscription] = useState<PushSubscription | null>(
