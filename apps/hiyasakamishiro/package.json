@@ -3,12 +3,14 @@
     "@serwist/next": "9.0.11",
     "next": "14.2.20",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "web-push": "3.6.7"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "@types/web-push": "3.6.4"
   },
   "name": "hiyasakamishiro",
   "private": true,
