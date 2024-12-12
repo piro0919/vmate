@@ -15,6 +15,7 @@ export default function App(): JSX.Element {
   const editor = useEditor({
     content: "<p>Hello World! 🌎️</p>",
     extensions: [StarterKit],
+    immediatelyRender: false,
   });
 
   return (

@@ -4,6 +4,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import { Noto_Sans_JP as NotoSansJP } from "next/font/google";
 import "ress";
+import RootStyleRegistry from "./emotion";
 import "./globals.css";
 
 const notoSansJP = NotoSansJP({ subsets: ["latin"] });
@@ -21,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={notoSansJP.className}>
-        <ClerkProvider localization={jaJP}>{children}</ClerkProvider>
+        <RootStyleRegistry>
+          <ClerkProvider localization={jaJP}>{children}</ClerkProvider>
+        </RootStyleRegistry>
       </body>
     </html>
   );
