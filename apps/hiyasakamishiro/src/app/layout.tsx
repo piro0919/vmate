@@ -1,3 +1,4 @@
+// eslint-disable-next-line filenames/match-exported
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,7 +10,7 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>): JSX.Element {
   return (
     <html lang="ja">
       <body>{children}</body>
