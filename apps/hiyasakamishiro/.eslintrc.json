@@ -1,3 +1,7 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["../../.eslintrc.json"],
+  "parserOptions": {
+    "project": ["./tsconfig.json"],
+    "warnOnUnsupportedTypeScriptVersion": false
+  }
 }
