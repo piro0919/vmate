@@ -1,10 +1,12 @@
 // eslint-disable-next-line filenames/match-exported
 import type { Metadata, Viewport } from "next";
+import { Noto_Sans_JP as NotoSansJP } from "next/font/google";
 import { ReactNode } from "react";
 import "react-tabs/style/react-tabs.css";
 import "ress";
 import "./globals.css";
 
+const notoSansJP = NotoSansJP({ subsets: ["latin"] });
 const APP_NAME = "PWA App";
 const APP_DEFAULT_TITLE = "My Awesome PWA App";
 const APP_TITLE_TEMPLATE = "%s - PWA App";
@@ -56,7 +58,7 @@ export default function RootLayout({
 }>): React.JSX.Element {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body className={notoSansJP.className}>{children}</body>
     </html>
   );
 }

@@ -5,9 +5,54 @@ import {
   IconMessageDots,
   IconUser,
 } from "@tabler/icons-react";
-import { ReactNode, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { ReactNode, useMemo } from "react";
 import { Tab, TabList, Tabs } from "react-tabs";
 import styles from "./style.module.css";
+
+type TabItem = {
+  icon: ReactNode;
+  label: string;
+  path: string;
+};
+
+const TAB_ITEMS = [
+  {
+    icon: <IconHome size={24} />,
+    label: "ホーム",
+    path: "/",
+  },
+  {
+    icon: <IconMessageDots size={24} />,
+    label: "コミュニティ",
+    path: "/community",
+  },
+  {
+    icon: <IconClock size={24} />,
+    label: "スケジュール",
+    path: "/schedule",
+  },
+  {
+    icon: <IconUser size={24} />,
+    label: "マイページ",
+    path: "/mypage",
+  },
+] as const;
+
+function NavTab({
+  item,
+  onClick,
+}: {
+  item: TabItem;
+  onClick: () => void;
+}): React.JSX.Element {
+  return (
+    <Tab className={styles.tab} onClick={onClick}>
+      {item.icon}
+      <span>{item.label}</span>
+    </Tab>
+  );
+}
 
 export type AuthLayoutProps = {
   children: ReactNode;
@@ -16,31 +61,27 @@ export type AuthLayoutProps = {
 export default function AuthLayout({
   children,
 }: AuthLayoutProps): React.JSX.Element {
-  const [tabIndex, setTabIndex] = useState(0);
+  const pathname = usePathname();
+  const router = useRouter();
+  const selectedIndex = useMemo(
+    () => TAB_ITEMS.findIndex((item) => item.path === pathname),
+    [pathname],
+  );
 
   return (
-    <>
+    <div className={styles.container}>
       <main className={styles.main}>{children}</main>
-      <Tabs onSelect={(index) => setTabIndex(index)} selectedIndex={tabIndex}>
+      <Tabs selectedIndex={selectedIndex}>
         <TabList className={styles.tabList}>
-          <Tab className={styles.tab}>
-            <IconHome size={24} />
-            <span>ホーム</span>
-          </Tab>
-          <Tab className={styles.tab}>
-            <IconMessageDots size={24} />
-            <span>コミュニティ</span>
-          </Tab>
-          <Tab className={styles.tab}>
-            <IconClock size={24} />
-            <span>スケジュール</span>
-          </Tab>
-          <Tab className={styles.tab}>
-            <IconUser size={24} />
-            <span>マイページ</span>
-          </Tab>
+          {TAB_ITEMS.map((item) => (
+            <NavTab
+              item={item}
+              key={item.path}
+              onClick={() => router.push(item.path)}
+            />
+          ))}
         </TabList>
       </Tabs>
-    </>
+    </div>
   );
 }
