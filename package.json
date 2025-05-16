@@ -31,7 +31,7 @@
     "knip": "5.55.1",
     "lefthook": "1.11.12",
     "prettier": "3.5.3",
-    "prisma": "5.22.0",
+    "prisma": "6.8.2",
     "secretlint": "9.3.2",
     "stylelint": "16.19.1",
     "stylelint-config-css-modules": "4.4.0",
