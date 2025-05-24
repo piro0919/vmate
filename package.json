@@ -28,7 +28,7 @@
     "eslint-plugin-typescript-sort-keys": "3.3.0",
     "eslint-plugin-unused-imports": "4.1.4",
     "eslint-plugin-write-good-comments": "0.2.0",
-    "knip": "5.57.2",
+    "knip": "5.58.0",
     "lefthook": "1.11.13",
     "prettier": "3.5.3",
     "prisma": "5.22.0",
