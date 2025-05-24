@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@clerk/localizations": "3.16.0",
-    "@clerk/nextjs": "6.19.4",
+    "@clerk/localizations": "3.16.1",
+    "@clerk/nextjs": "6.20.0",
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.0",
     "@mui/icons-material": "7.1.0",
@@ -21,7 +21,7 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "ress": "5.0.2",
-    "zod": "3.24.4"
+    "zod": "3.25.28"
   },
   "devDependencies": {
     "@types/node": "22.15.21",
