@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@clerk/localizations": "3.16.4",
-    "@clerk/nextjs": "6.21.0",
+    "@clerk/localizations": "3.16.5",
+    "@clerk/nextjs": "6.22.0",
     "@emotion/react": "11.14.0",
     "@prisma/client": "5.22.0",
-    "@t3-oss/env-nextjs": "0.13.6",
+    "@t3-oss/env-nextjs": "0.13.8",
     "@tabler/icons-react": "3.34.0",
     "@vercel/postgres": "0.10.0",
     "hamburger-react": "2.5.2",
@@ -15,7 +15,7 @@
     "ress": "5.0.2",
     "use-show-window-size": "0.0.1",
     "usehooks-ts": "3.1.1",
-    "zod": "3.25.56"
+    "zod": "3.25.64"
   },
   "devDependencies": {
     "@types/node": "22.15.31",
