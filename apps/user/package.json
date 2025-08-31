@@ -1,21 +1,21 @@
 {
   "dependencies": {
-    "@clerk/localizations": "3.23.0",
-    "@clerk/nextjs": "6.31.4",
+    "@clerk/localizations": "3.24.0",
+    "@clerk/nextjs": "6.31.6",
     "@emotion/react": "11.14.0",
     "@prisma/client": "5.22.0",
     "@t3-oss/env-nextjs": "0.13.8",
     "@tabler/icons-react": "3.34.1",
     "@vercel/postgres": "0.10.0",
     "hamburger-react": "2.5.2",
-    "next": "15.5.0",
+    "next": "15.5.2",
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "react-modern-drawer": "1.4.0",
     "ress": "5.0.2",
     "use-show-window-size": "0.0.1",
     "usehooks-ts": "3.1.1",
-    "zod": "4.1.1"
+    "zod": "4.1.5"
   },
   "devDependencies": {
     "@types/node": "20.19.11",
