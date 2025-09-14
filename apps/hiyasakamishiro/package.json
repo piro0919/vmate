@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "@serwist/next": "9.2.0",
+    "@serwist/next": "9.2.1",
     "@tabler/icons-react": "3.34.1",
-    "next": "15.5.2",
+    "next": "15.5.3",
     "react": "^19.0.0-rc-02c0e824-20241028",
     "react-dom": "^19.0.0-rc-02c0e824-20241028",
     "react-tabs": "6.1.0",
