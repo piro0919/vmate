@@ -19,9 +19,9 @@
   },
   "devDependencies": {
     "@types/node": "20.19.17",
-    "@types/react": "19.1.13",
+    "@types/react": "19.1.14",
     "@types/react-dom": "19.1.9",
-    "jiti": "2.5.1"
+    "jiti": "2.6.0"
   },
   "name": "user",
   "private": true,
