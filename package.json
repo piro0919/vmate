@@ -29,7 +29,7 @@
     "eslint-plugin-unused-imports": "4.3.0",
     "eslint-plugin-write-good-comments": "0.2.0",
     "knip": "5.66.2",
-    "lefthook": "1.13.6",
+    "lefthook": "2.0.1",
     "prettier": "3.6.2",
     "prisma": "5.22.0",
     "secretlint": "11.2.5",
