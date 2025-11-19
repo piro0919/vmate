@@ -6,7 +6,7 @@
     "@emotion/styled": "11.14.1",
     "@mui/icons-material": "7.3.5",
     "@mui/material": "7.3.5",
-    "@prisma/client": "5.22.0",
+    "@prisma/client": "7.0.0",
     "@t3-oss/env-nextjs": "0.13.8",
     "@tiptap/core": "3.10.7",
     "@tiptap/extension-heading": "3.10.7",
