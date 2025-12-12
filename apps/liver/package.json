@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@clerk/localizations": "3.29.1",
-    "@clerk/nextjs": "6.36.0",
+    "@clerk/localizations": "3.30.1",
+    "@clerk/nextjs": "6.36.2",
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@mui/icons-material": "7.3.6",
@@ -17,9 +17,9 @@
     "@tiptap/starter-kit": "3.13.0",
     "@vercel/postgres": "0.10.0",
     "mui-tiptap": "1.28.1",
-    "next": "15.5.7",
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
+    "next": "15.5.9",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "ress": "5.0.2",
     "zod": "4.1.13"
   },
