@@ -17,7 +17,7 @@
     "@tiptap/starter-kit": "3.15.3",
     "@vercel/postgres": "0.10.0",
     "mui-tiptap": "1.28.1",
-    "next": "15.5.9",
+    "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "ress": "5.0.2",
