@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "@commitlint/cli": "20.4.0",
-    "@commitlint/config-conventional": "20.4.0",
+    "@commitlint/cli": "20.4.1",
+    "@commitlint/config-conventional": "20.4.1",
     "@piro0919/next-unused": "0.2.2",
     "@secretlint/secretlint-rule-preset-recommend": "11.3.1",
     "@total-typescript/ts-reset": "0.6.1",
@@ -28,8 +28,8 @@
     "eslint-plugin-typescript-sort-keys": "3.3.0",
     "eslint-plugin-unused-imports": "4.3.0",
     "eslint-plugin-write-good-comments": "0.2.0",
-    "knip": "5.82.1",
-    "lefthook": "2.0.16",
+    "knip": "5.83.1",
+    "lefthook": "2.1.0",
     "prettier": "3.8.1",
     "prisma": "7.3.0",
     "secretlint": "11.3.1",

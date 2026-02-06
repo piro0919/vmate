@@ -24,8 +24,8 @@
     "zod": "4.3.6"
   },
   "devDependencies": {
-    "@types/node": "20.19.30",
-    "@types/react": "19.2.10",
+    "@types/node": "20.19.32",
+    "@types/react": "19.2.13",
     "@types/react-dom": "19.2.3",
     "jiti": "2.6.1"
   },
