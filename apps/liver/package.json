@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "@clerk/localizations": "3.35.3",
-    "@clerk/nextjs": "6.37.3",
+    "@clerk/localizations": "3.35.4",
+    "@clerk/nextjs": "6.37.4",
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
-    "@mui/icons-material": "7.3.7",
-    "@mui/material": "7.3.7",
-    "@prisma/client": "7.3.0",
+    "@mui/icons-material": "7.3.8",
+    "@mui/material": "7.3.8",
+    "@prisma/client": "7.4.0",
     "@t3-oss/env-nextjs": "0.13.10",
     "@tiptap/core": "3.19.0",
     "@tiptap/extension-heading": "3.19.0",
