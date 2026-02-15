@@ -11,7 +11,7 @@
     "better-typescript-lib": "2.12.0",
     "commitlint-plugin-tense": "1.0.9",
     "depcheck": "1.4.7",
-    "eslint": "^8",
+    "eslint": "^10.0.0",
     "eslint-config-google": "0.14.0",
     "eslint-config-next": "14.2.35",
     "eslint-config-prettier": "10.1.8",
