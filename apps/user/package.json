@@ -8,7 +8,7 @@
     "@tabler/icons-react": "3.36.1",
     "@vercel/postgres": "0.10.0",
     "hamburger-react": "2.5.2",
-    "next": "15.5.12",
+    "next": "16.1.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-modern-drawer": "1.4.0",
