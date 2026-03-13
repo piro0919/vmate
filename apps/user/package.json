@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "@clerk/localizations": "4.0.0",
-    "@clerk/nextjs": "7.0.1",
+    "@clerk/localizations": "4.2.1",
+    "@clerk/nextjs": "7.0.4",
     "@emotion/react": "11.14.0",
-    "@prisma/client": "7.4.2",
+    "@prisma/client": "7.5.0",
     "@t3-oss/env-nextjs": "0.13.10",
     "@tabler/icons-react": "3.40.0",
     "@vercel/postgres": "0.10.0",
