@@ -1,14 +1,14 @@
 {
   "dependencies": {
-    "@clerk/localizations": "4.2.1",
-    "@clerk/nextjs": "7.0.4",
+    "@clerk/localizations": "4.2.3",
+    "@clerk/nextjs": "7.0.6",
     "@emotion/react": "11.14.0",
     "@prisma/client": "7.5.0",
     "@t3-oss/env-nextjs": "0.13.10",
     "@tabler/icons-react": "3.40.0",
     "@vercel/postgres": "0.10.0",
     "hamburger-react": "2.5.2",
-    "next": "15.5.12",
+    "next": "15.5.14",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-modern-drawer": "1.4.0",
