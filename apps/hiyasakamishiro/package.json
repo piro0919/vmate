@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "@serwist/next": "9.5.7",
-    "@tabler/icons-react": "3.40.0",
+    "@tabler/icons-react": "3.41.0",
     "next": "15.5.14",
     "react": "^19.0.0-rc-02c0e824-20241028",
     "react-dom": "^19.0.0-rc-02c0e824-20241028",
-    "react-tabs": "6.1.0",
+    "react-tabs": "6.1.1",
     "ress": "5.0.2",
     "web-push": "3.6.7"
   },
