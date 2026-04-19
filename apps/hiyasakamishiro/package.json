@@ -2,7 +2,7 @@
   "dependencies": {
     "@serwist/next": "9.5.7",
     "@tabler/icons-react": "3.41.1",
-    "next": "15.5.15",
+    "next": "16.2.4",
     "react": "^19.0.0-rc-02c0e824-20241028",
     "react-dom": "^19.0.0-rc-02c0e824-20241028",
     "react-tabs": "6.1.1",
