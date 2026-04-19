@@ -41,7 +41,7 @@
     "stylelint-high-performance-animation": "1.11.0",
     "stylelint-no-unused-selectors": "1.0.40",
     "stylelint-order": "8.1.0",
-    "typescript": "5.9.3"
+    "typescript": "6.0.3"
   },
   "name": "vmate",
   "overrides": {
